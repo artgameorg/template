@@ -1,0 +1,13 @@
+.idea
+.vscode
+.gradle
+.kotlin
+.DS_Store
+*.iws
+*.iml
+*.ipr
+out/
+
+template.iml
+gradle/**
+!gradle/libs.versions.toml
