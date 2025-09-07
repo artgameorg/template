@@ -14,7 +14,7 @@ subprojects {
     version = rootProject.version
     repositories.addAll(rootProject.repositories)
 
-    apply(plugin = libs.plugins.kotlin.get().pluginId)
+    apply(plugin = rootProject.libs.plugins.kotlin.get().pluginId)
 
     sourceSets.main {
         kotlin.srcDir("src")
